@@ -1,0 +1,99 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+:root {
+    --mainBlue: #2a2a72;
+    --lightBlue: #009ffd;
+    --mainWhite: #f3f3f3;
+    --mainDark: #232528;
+    --mainYellow: rgba(255, 255, 0, 0.685);
+    --secondDark: #3F4A59;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #57b846;
+}
+
+
+/*---------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bryant MOO Pro Medium", "Trebuchet MS", Trebuchet, "Liberation Sans", sans-serif !important;
+    font-size: 20px !important;
+    /* color: var(--secondDark) !important; */
+}
+
+p {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0px;
+}
+
+.MuiButton-root {
+    font-size: 0.875rem;
+    font-family: "Bryant MOO Pro Medium", "Trebuchet MS", Trebuchet, "Liberation Sans", sans-serif !important;
+    letter-spacing: 0.02857em;
+    text-transform: lowercase !important;
+}
+
+.twitter svg {
+    color: #00aeff91;
+}
+
+.twitter svg :hover {
+    color: #00ccffd2;
+}
+
+.facebook svg {
+    color: #0202df7c;
+}
+
+.facebook svg :hover {
+    color: #000090;
+}
+
+.tel svg {
+    color: rgba(41, 40, 40, 0.719);
+}
+
+.tel svg :hover {
+    color: #060608;
+}
+
+.email svg {
+    color: #bc0b0b8a;
+}
+
+.email svg :hover {
+    color: #ff0000af;
+}
+
+
+/* .MuiButton-label {
+    background: var(--mainYellow) !important;
+} */
+
+
+/* ul,
+li {
+    margin: 0px;
+    list-style-type: none;
+} */
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Utility ]*/
+
+
+/*  */

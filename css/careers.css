@@ -1,0 +1,133 @@
+:root {
+    --mainBlue: #2a2a72;
+    --lightBlue: #00a2ff8c;
+    --mainWhite: #ffffff;
+    --mainDark: #232528;
+    --mainYellow: #ffa400;
+    --secondDark: #3F4A59;
+}
+
+.MuiSnackbar-anchorOriginBottomCenter {
+    left: 50%;
+    right: auto;
+    bottom: 62px !important;
+    transform: translateX(-50%);
+}
+
+.fileUpload {
+    padding-top: 117px;
+    font-family: revert;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+/* .tabs {
+    padding-Left: 22rem;
+    background: #ffa400
+} */
+
+
+/*
+@media (max-width: 800px) {
+    .tabs {
+        padding-Left: 6rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .tabs {
+        padding-Left: 7rem !important;
+    }
+}
+*/
+
+@media (max-width: 599px) {
+    .MuiSnackbar-root {
+        left: 17px !important;
+        right: 0px !important;
+        margin-left: 18.7rem !important;
+    }
+}
+
+@media (max-width: 591px) {
+    .MuiSnackbar-root {
+        left: 12px !important;
+        right: 0px !important;
+        margin-left: 18.7rem !important;
+    }
+}
+
+@media (max-width: 414px) {
+    .MuiContainer-root {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .MuiSnackbar-root {
+        left: -125px !important;
+        right: -86px !important;
+        margin-left: 18.7rem !important;
+    }
+    /* button .MuiTab-wrapper {
+        font-size: 10px !important
+    } */
+}
+
+@media (max-width: 389px) {
+    .MuiContainer-root {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    /* button .MuiTab-wrapper {
+        font-size: 13px !important;
+    }
+   .tabs {
+        padding-Left: 2rem !important;
+    }*/
+}
+
+@media (max-width: 375px) {
+    /*.MuiContainer-root {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+     .tabs {
+        padding-Left: 2rem !important
+    }*/
+    .fileUpload {
+        padding-top: 97px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .MuiSnackbar-root {
+        left: -125px !important;
+        right: -88px !important;
+        margin-left: 17.7rem !important;
+    }
+}
+
+@media (max-width: 335px) {
+    /* .tabs {
+        padding-Left: 1rem !important
+    } */
+}
+
+@media (max-width: 310px) {
+    /* .tabs {
+        padding-Left: 0rem !important
+    } */
+}
+
+@media (max-width: 289px) {
+    /* button .MuiTab-wrapper {
+        font-size: 9px !important;
+    } */
+}
+
+@media (max-width: 275px) {
+    /* button .MuiTab-wrapper {
+        font-size: 8px !important;
+    } */
+}
